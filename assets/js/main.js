@@ -24,6 +24,15 @@
 			}, 100);
 		});
 
+	// Fix for mobile viewport height issues (hero section)
+		function setHeroHeight() {
+			let vh = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty('--vh', `${vh}px`);
+		}
+
+		setHeroHeight();
+		window.addEventListener('resize', setHeroHeight);
+
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			mode: 'fade',

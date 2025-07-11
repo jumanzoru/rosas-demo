@@ -2047,7 +2047,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		height: 100vh;
+		height: calc(var(--vh, 1vh) * 100);
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2078,7 +2078,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 100vh;
+			height: calc(var(--vh, 1vh) * 100);
 			background: url("../../images/demolition-test.jpg") center center;
 			background-size: cover;
 		}
