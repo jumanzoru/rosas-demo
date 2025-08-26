@@ -1617,7 +1617,11 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			/*width: 100%;*/
+			width: auto !important;
+			height: 80% !important;
+			justify-content: center;
+			align-items: center;
 			margin: 0 0 2em 0;
 		}
 
@@ -1672,7 +1676,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #4682B4 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1850,7 +1854,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #4682B4 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1967,7 +1971,7 @@ input, select, textarea {
 			display: block;
 			font-weight: 700;
 			letter-spacing: 0.25em;
-			font-size: 0.9em;
+			font-size: 1.2em;
 			width: 25em;
 			height: 3.25em;
 			top: -3.25em;
@@ -2002,13 +2006,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #4682B4 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #4682B4 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2096,7 +2100,7 @@ input, select, textarea {
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
-			font-size: 2em;
+			font-size: 3em;
 			letter-spacing: 0.25em;
 		}
 
@@ -2107,7 +2111,7 @@ input, select, textarea {
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 1em;
+			font-size: 1.3em;
 		}
 
 /* Nav */
@@ -2270,7 +2274,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770; /* red color */
+			color: #4682B4; /* red color */
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
